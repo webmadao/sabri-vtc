@@ -1,0 +1,114 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="description" content="Une carte de visite pour  la société de Web.Kin.Dev">
+    <link rel="preload" href="style.css" as="style">
+    <meta name="web.kin.dev-carte-de-visite" content="Template to start HTML">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+
+   <!-- Meta pour Instagram -->
+<meta property="og:title" content="web.kin.dev">
+<meta property="og:description" content="La carte de visite de la société Web.Kin.Dev">
+<meta property="og:image" content="https://img.freepik.com/vecteurs-libre/illustration-du-concept-programmation_114360-1670.jpg?size=626&ext=jpg&ga=GA1.1.237782246.1686168425&semt=ais">
+<meta property="og:url" content="https://webmadao.github.io/web-kin-dev/">
+
+<!-- Meta pour twitter-->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="web.kin.dev">
+<meta name="twitter:description" content="La carte de visite de la société Web.Kin.Dev">
+<meta name="twitter:image" content="https://webmadao.github.io/web-kin-dev/images/logo.png">
+  </head>
+
+  <body>
+    <main>
+      <img
+        src="./images/logo.png"
+        id="logo"
+        class="animate__animated animate__slideInDown"
+        alt="logo circulaire vert, avec un WK vert au centre acoompagner de web kin en doré"
+      />
+      <h1>Création de site internet qui vous ressemble.</h1>
+      <img
+        src="./images/image-dev.avif"
+        class="animate__animated animate__slideInDown"
+        id="image-dev"
+        alt="une image d'un developpeur web de dos entrain de travailler sur un ordinateur"
+      />
+      <h2>Hello Diagnostic</h2>
+
+      <ul>
+        <li>
+          <a href="tel:+33658157785">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+           +33 6.58.15.77.85
+          </a>
+        </li>
+        <li>
+          <i class="fa-regular fa-envelope"></i>
+          <a href="ilyes.kadji.web@gmail.com">
+            ilyes.kadji.web@gmail.com
+          </a>
+        </li>
+      </ul>
+       
+      <section class="partage">
+        <button id="openmodal">
+          <i class="fa-solid fa-square-share-nodes"></i> Partager
+        </button>
+
+        <dialog id="modal">
+          <div class="in-modal">
+          <img src="./images/qrcode.avif"  alt="qrcode"/>
+          <button id="closemodal"><strong>Fermer</strong></button>
+          </div>
+        </dialog>
+        <ul class="animate__animated animate__slideInUp" >
+          <li
+            class="share-gplus"
+            data-url="https://webmadao.github.io/web-kin-dev/"
+          >
+          <i class="fa-brands fa-square-google-plus"></i>
+          </li>
+
+          <li
+            class="share-linkedin"
+            data-url="https://webmadao.github.io/web-kin-dev/"
+          >
+          <i class="fa-brands fa-linkedin"></i>
+         
+
+          <li
+            class="share-facebook"
+            data-url="https://webmadao.github.io/web-kin-dev/"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          
+
+          <li
+            class="share-twitter"
+            data-url="https://webmadao.github.io/web-kin-dev/"
+          >
+          <i class="fa-brands fa-square-twitter"></i></i>
+          </li>
+
+          <li class="share-whatsapp" data-url="https://webmadao.github.io/web-kin-dev/">
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
+
